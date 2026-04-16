@@ -62,18 +62,19 @@ ul> li:last-child {
 .hero-div {
     width: 100%;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .hero-div > img {
     width: 100%;
-    height: 100%;
+    max-height: 700px;
     object-fit: cover;
     display: block;
 }
 
 .hero-inner {
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     top: 50%;
     left: 50%;
     z-index: 2;
@@ -83,6 +84,14 @@ ul> li:last-child {
 main > button {
     display: block;
     margin: auto;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #9155A7;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 12px;
 }
 
 .hero-inner > span:nth-child(2) {
@@ -102,5 +111,30 @@ main > button {
 .hero-inner > h1 {
     color: white;
     font-weight: 900;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.inner-schedule {
+    color: white;
+    background: rgba(7, 7, 7, 0.1);
+    font-size: 1.8em;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    min-height: 80px;
+    
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+
+footer > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
 }
