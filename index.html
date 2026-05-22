@@ -1,84 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="banner">
-            <span>
-                Our priority is your ideal health!
-            </span>
+      <p class="text-center">Our priority is your ideal health!</p>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light site-navbar">
+        <div class="navbar-inner">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="assets/d7818d_0a6fbb887b2a4ec394d81ab5f8b3c7c9~mv2.png"
+              alt=""
+          /></a>
+
+          <!-- Hamburger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible menu -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="nav-links-wrapper">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Insurance</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">More</a>
+                </li>
+              </ul>
+            </div>
+
+            <a class="nav-search" href="#" aria-label="Search">
+              <img
+                class="nav-search-icon"
+                src="assets/search-svgrepo-com.svg"
+                alt="Search"
+              />
+            </a>
+          </div>
         </div>
-        <nav>
-            <div>
-                <img src="assets/d7818d_0a6fbb887b2a4ec394d81ab5f8b3c7c9~mv2.png" alt="Logo">
-            </div>
-
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Our Services</a></li>
-                    <li><a href="">Insurance</a></li>
-                    <li><a href="">More</a></li>
-                </ul>
-            </div>
-            <img src="assets/search-svgrepo-com.svg" alt="" width="25px">
-
-        </nav>
+      </nav>
     </header>
     <main>
-        <div class="hero-div">
-            <img src="assets/d7818d_973ce35c067e487299457e8798403d64~mv2.png" alt="">
-            <div class="hero-inner">
-                <span>WELCOME TO</span>
-                <span>OHIO HEALTH CLINIC</span>
-                <h1>WE ARE AN URGENT CARE CENTER</h1>
-                <div class="inner-schedule">
-                    <span>Walk-Ins Available <br>
-                Monday - Friday <br>
-                 11:00 am - 7:00 pm
-                </span>
-                </div>
-            </div>
+      <div class="hero-div">
+        <img
+          src="assets/d7818d_973ce35c067e487299457e8798403d64~mv2.png"
+          alt=""
+        />
+        <div class="hero-div-inner">
+          <span>WELCOME TO</span>
+          <span>OHIO HEALTH CLINIC</span>
+          <h1>WE ARE AN URGENT CARE CENTER</h1>
+          <div class="inner-schedule">
+            <span
+              >Walk-Ins Available <br />
+              Monday - Friday <br />
+              11:00 am - 7:00 pm
+            </span>
+          </div>
+          <button>Book Appointment Online</button>
         </div>
-        <button>Book Appointment Online</button>
+      </div>
     </main>
     <section>
-        <div class="container">
-            <img src="" alt="">
+      <div class="container">
+        <span id="service">Our Services</span>
+        <div class="container-inner">
+          <div class="left">
+            <ul>
+              <li>Ear Infection</li>
+              <li>Cold/Flu/Covid Symptoms</li>
+              <li>Sinus Infections</li>
+              <li>Pink Eye</li>
+              <li>Rash</li>
+              <li>Minor Burns and Abrasion Care</li>
+              <li>Laceration Repair</li>
+              <li>Incision and Drainage</li>
+              <li>Gout Flares</li>
+            </ul>
+          </div>
+          <div class="middle">
+            <ul>
+              <li>Medical Weight Loss Program</li>
+              <li>COPD and Asthma Exacerbation</li>
+              <li>Animal and Insect Bite Care</li>
+              <li>STD Testing and Treatment</li>
+              <li>Dental Infection</li>
+              <li>
+                Medication Refills<br />(We do not refill controlled substances,
+                specialty medication or antipsychotics)
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul>
+              <li>Sports and Other School Physical</li>
+              <li>DOT and NON-DOT Urine Drug Screens</li>
+              <li>Pre-employment Physicals</li>
+              <li>DOT Physicals</li>
+              <li>Tuberculosis Screens - Skin and Blood Test</li>
+              <li>Hepatitis B Vaccine</li>
+              <li>TDAP Vaccine</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
+
+    <div class="full-wrapper">
+      <div></div>
+    </div>
+
     <footer>
+      <div class="footer-wrapper">
         <div>
-            <p>
-                3881 Eagle Creek Pkwy, Suite A
-
-                Indianapolis, IN 46254
-
-                </p>
-                <p>
-Tel: (317) 969-8332
-                </p>
+          <p>3881 Eagle Creek Pkwy, Suite A Indianapolis, IN 46254</p>
+          <p>Tel: (317) 969-8332</p>
         </div>
         <div>
-            <p> 2025 by Ohio Health Clinic</p>
+          <p>2025 by Ohio Health Clinic</p>
         </div>
 
         <div>
-            <span>
-                Facebook
-                Instagram
-            </span>
-
+          <span> Facebook Instagram </span>
         </div>
+      </div>
     </footer>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
